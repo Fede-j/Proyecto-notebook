@@ -1,0 +1,393 @@
+/*GENERALES*/
+* {
+    margin: 0% ;
+    padding: 0% ;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Pacifico";
+    src: url(./recursos/ZenAntiqueSoft-Regular.ttf);
+    font-style: normal;
+}
+/*CUERPO*/
+body{
+    background: url(./recursos/fondo1.jpg);
+    background-size: contain;
+}
+/*HEADER*/
+header {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.publicidad {
+    text-align: "center";
+    font-size: x-small;
+    font-style: normal;
+    font-family: "Pacifico";
+    background-color: #F2DCEB;;
+    text-align: center;
+    
+}
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Pacifico";
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+    border: 3px solid #404040;
+    
+    
+   
+
+}
+.encabezado h2 {
+    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 40px;
+}
+.encabezado nav {
+    display: flex;
+    animation: ease-in animacion 1.5s;
+}
+.encabezado nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.hamburguesa {
+    display: none;
+    animation: ease-in animacion 1.5s;
+}
+a:hover {
+    color: #404040;
+}
+.encabezado img {
+    width: 150px;
+    border-radius: 60px;
+    animation: ease-in animacion 1.5s;
+}
+@keyframes animacion {
+    0% { 
+        transform: scale(0);
+    }
+    100% { 
+        transform: scale(1);
+    }
+    
+}
+article img {
+    height: 350px;
+    width: 250px;
+    border:5px solid #404040 ;
+    margin-left: 20px;
+}
+article {
+    display: flex;
+}
+button {
+    font-size: large;
+    font-weight: bold;
+}
+a {
+    display: block;
+    font-weight: bold;;
+    width: auto;
+    padding: 10px 10px;
+    border-radius: 30px;
+    border: solid black;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+a.comprar {
+    display: block;
+    font-weight: bold;
+    width: auto;
+    padding: 10px 10px;
+    border-radius: 30px;
+    border: solid black;
+    color: black;
+    text-align: center;
+    font-family: "Pacifico"; 
+
+}
+.prendas {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0% auto;
+    margin-top: 30px;
+}
+.prendas2 {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+.prenda1 {
+    padding: 0px 0px ;
+    justify-content: flex-start;
+}
+.prenda2{
+    justify-content: flex-end;
+}
+.contenedor1 {
+    display: block;
+    flex-direction: row;
+    width: max-content;
+    text-align: center;
+    align-items: right;
+}
+/* ANIMACIONES EN TIENDA */
+.contenedor1 img:hover {
+    transform: scale(1.2);
+}
+.contenedor2 img:hover {
+    transform: scale(1.2);
+}
+.contenedor1 img{
+    transition: ease-in 0.8s;
+}
+.contenedor2 img{
+    transition: ease-in 0.8s;
+}
+.lista1 {
+    padding-top: 100px;
+    margin: 10px;
+    width: 110px;
+    height: 350px;
+
+}
+input {
+    display: block;
+}
+.formu {
+    display: flex;
+    justify-content: center;
+}
+.tarjetaformulario {
+    margin: 10px;
+    font-family: "Pacifico";
+    background-color: #dbe4d486;
+    padding: 20px 40px;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    justify-content: flex-end;
+    box-shadow: 0 0 40px -10px;
+}
+.input {
+    padding: 7px;
+    margin: 10px 10px;
+    
+}
+
+.formu a {
+    display: flex;
+    font-weight: bold;
+    background-color: rgb(148, 201, 211);
+    width: auto;
+    padding: 10px 10px;
+    border-radius: 30px;
+    border: solid #404040 10px;
+    text-decoration: none;
+    color: black;
+    
+
+}
+.promociones {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.piedepagina {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    font-weight: bold;
+}
+.pie {
+    font-family: "Pacifico";
+}
+.TITULOCONTACTO {
+    font-family: "Pacifico";
+    display: flex;
+    justify-content: center;
+}
+ul .listacontacto {
+    font-family: "Pacifico";
+    padding: 5px;
+    margin: 10px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.doble {
+    display: flex;
+    justify-content: center;
+}
+.formulariocontacto {
+    font-family: "Pacifico";
+    margin-left: 40px;
+    background-color: #dbe4d486;
+    padding: 40px;
+    border-radius: 10px;
+    height: 350px;
+    width: 300px;
+    border: 1px solid black;
+    justify-content: flex-end;
+    box-shadow: 0 0 40px -10px;
+    
+}
+button {
+    font-family: "Pacifico";
+    margin-top: 10px;
+    padding: 5px;
+    background-color: aquamarine;
+}
+.CcC {
+    margin-bottom: 10px ;
+}
+.input1 {
+    padding: 10px;
+    margin: 7px;
+}
+
+.queeslamoda {
+    font-family: "Pacifico";
+    text-align: center;
+    padding: 10px;
+
+}
+.modatexto {
+    font-family: "Pacifico";
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0% auto;
+    text-align: justify center;
+}
+.grid img {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+/* Animacion a MODACIRCULAR */
+.grid img:hover {
+    transform: scale(1.5);
+
+}
+/* FIN */
+.podcast {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+.podcast:hover {
+    transform: scale(1.5);
+
+
+}
+
+/* GRID EN PESTAÑA MODA CIRCULAR, */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 40px;
+    justify-items: center;
+    margin-top: 20px;
+}
+/* REPONSIVE PARA EL INDEX */
+@media (max-width:768px) {
+    .lista1 {
+        width: 170px;
+        height: 350px;
+    }
+
+    .encabezado {
+        justify-content: center;
+        width: auto;
+    }
+    .encabezado nav {
+        display: none;
+    }
+    .encabezado img {
+        width: 100px;
+        height: 100px;  
+    }
+    .prendas {
+        display: block;
+    }
+    .prendas2 {
+        display: block;
+        margin-top: 0px;
+    }
+    .prenda1 {
+        justify-content: center;
+    }
+    .prenda2 {
+        justify-content: center;
+    }
+    .prend3 {
+        justify-content: center;
+    }
+    .hamburguesa {
+        display: block;
+    }
+    .encabezado h2 {
+        font-size: 30px;
+    }
+    .piedepagina {
+        justify-content: center;
+    }
+    .pie { 
+        font-size: medium; 
+    }
+    .promociones {
+        justify-content: space-evenly;
+    }
+     /* REPONSIVE DE MODACIRCULAR */
+     .grid {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+}
+
+@media (max-width:576px) {
+    /* RESPONSIVE */
+    .encabezado {
+        width: 500px;
+    }
+    .encabezado nav {
+        display: none;
+    }
+    .encabezado img {
+        width: 80px;
+        height: 80px;  
+    }
+    .encabezado h2 {
+        font-size: 30px;
+    }   
+
+    /* REPONSIVE DE MODACIRCULAR */
+    .grid {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+
+}
+
+
