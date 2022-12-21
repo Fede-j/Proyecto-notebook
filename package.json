@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-escritorio-main",
+  "version": "1.0.0",
+  "description": "AgregarSASS",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fede-j/Proyecto-notebook.git"
+  },
+  "author": "Altamirano Federico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fede-j/Proyecto-notebook/issues"
+  },
+  "homepage": "https://github.com/Fede-j/Proyecto-notebook#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
